@@ -50,8 +50,8 @@ if file:
             col1.metric("الأصلي", f"{orig_size:.2f} MB")
             col2.metric("المضغوط", f"{comp_size:.2f} MB")
             col3.metric("توفير", f"{saved:.1f}%")
-
-         st.image(buf, caption="الصورة المضغوطة", use_column_width=True)
+            
+            st.image(buf, caption="الصورة المضغوطة", use_column_width=True)
 
             st.download_button(
                 label="⬇️ تحميل الصورة المضغوطة",
